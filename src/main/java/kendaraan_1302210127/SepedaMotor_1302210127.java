@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package kendaraan_1302213089;
+package kendaraan_1302210127;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -10,12 +10,12 @@ import java.time.format.DateTimeFormatter;
  *
  * @author hp
  */
-public class SepedaMotor_1302213089 {
+public class SepedaMotor_1302210127 {
     private String warnaMotor;
     protected int ukuranTangki;
     private LocalDateTime waktuIsiBensin;
     
-    public SepedaMotor_1302213089(String warna){
+    public SepedaMotor_1302210127(String warna){
         warnaMotor = warna;
         ukuranTangki = 3;
         waktuIsiBensin = null;
