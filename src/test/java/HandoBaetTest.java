@@ -14,6 +14,6 @@ public class HandoBaetTest {
         baet.isiTangkiFull_1302213089();
         String expectedHabis = LocalDateTime.now().plusHours(4).format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
         String actualHabis = baet.cekKapanHabis_1302213089();
-        Assertions.assertEquals(expectedHabis, actualHabis+1); // *harusnya gaperlu +1
+        Assertions.assertEquals(expectedHabis, actualHabis); 
     }
 }

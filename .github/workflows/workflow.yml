@@ -1,7 +1,7 @@
 name: Java CI/CD with Maven
 
 on:
-  push:
+  push: # Trigger ke semua branch
   pull_request:
     branches: ["main"]
 
