@@ -11,7 +11,7 @@ import pabrikan_1302213089.YamahaMoi_1302213089;
  *
  * @author hp
  */
-public class TP_MOD_06_1302213089_MUHAMMADVIKHANMUHARRAM {
+public class main {
 
     public static void main(String[] args) {
         SepedaMotor_1302213089 motor = new SepedaMotor_1302213089("merah");
